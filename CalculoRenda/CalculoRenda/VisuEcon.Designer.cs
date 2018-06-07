@@ -34,13 +34,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.dgHoraExtra = new System.Windows.Forms.DataGridView();
+            this.mes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.horaExtra = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dgSalario = new System.Windows.Forms.DataGridView();
             this.dgTxtMes = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgTxtSal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mes = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.horaExtra = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.calcHoraExtraBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.calcHoraExtraBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.calcSalBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -55,11 +55,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(142, 20);
+            this.label3.Location = new System.Drawing.Point(182, 20);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(362, 32);
+            this.label3.Size = new System.Drawing.Size(271, 32);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Página em manutenção :(";
+            this.label3.Text = "Visualizar relatório";
             // 
             // dgHoraExtra
             // 
@@ -87,6 +87,22 @@
             this.dgHoraExtra.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgHoraExtra.Size = new System.Drawing.Size(283, 379);
             this.dgHoraExtra.TabIndex = 8;
+            // 
+            // mes
+            // 
+            this.mes.FillWeight = 150F;
+            this.mes.HeaderText = "Mês";
+            this.mes.Name = "mes";
+            this.mes.ReadOnly = true;
+            // 
+            // horaExtra
+            // 
+            this.horaExtra.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.horaExtra.FillWeight = 118F;
+            this.horaExtra.HeaderText = "Valor de Hora Extra";
+            this.horaExtra.Name = "horaExtra";
+            this.horaExtra.ReadOnly = true;
+            this.horaExtra.Width = 160;
             // 
             // label1
             // 
@@ -135,22 +151,6 @@
             this.dgTxtSal.HeaderText = "Salário";
             this.dgTxtSal.Name = "dgTxtSal";
             this.dgTxtSal.ReadOnly = true;
-            // 
-            // mes
-            // 
-            this.mes.FillWeight = 150F;
-            this.mes.HeaderText = "Mês";
-            this.mes.Name = "mes";
-            this.mes.ReadOnly = true;
-            // 
-            // horaExtra
-            // 
-            this.horaExtra.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.horaExtra.FillWeight = 118F;
-            this.horaExtra.HeaderText = "Valor de Hora Extra";
-            this.horaExtra.Name = "horaExtra";
-            this.horaExtra.ReadOnly = true;
-            this.horaExtra.Width = 160;
             // 
             // calcHoraExtraBindingSource
             // 

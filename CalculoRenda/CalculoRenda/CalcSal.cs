@@ -13,9 +13,7 @@ namespace CalculoRenda
 {
     public partial class CalcSal : UserControl
     {
-        public List<string> lstSalario = new List<string>();
-        VisuEcon relatorio = new VisuEcon();
-       
+               
         public void Mensagem (string msg, bool status)
         {
             if (status)
@@ -83,11 +81,7 @@ namespace CalculoRenda
                 horaTrab = minuto / 60 + hora;
                 result = horaTrab * double.Parse(txtValHor.Text);
                 // conta errada
-                
-
-                lstSalario.Add(mes + ";" + result.ToString("n2"));
-                relatorio.PassaListaSal(lstSalario);
-
+              
                 txtSal.ReadOnly = true;
                 txtSal.Text = result.ToString("n2");
 
@@ -153,11 +147,6 @@ namespace CalculoRenda
         {
             HelpHoraTrab FrmHelpHoraTrab = new HelpHoraTrab();
             FrmHelpHoraTrab.Show();
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
         }
 
         private void btnHelpValTrab_Click(object sender, EventArgs e)

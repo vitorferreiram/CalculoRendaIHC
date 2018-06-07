@@ -283,6 +283,5 @@
         private System.Windows.Forms.Button btnHelpHoraTrab;
         public System.Windows.Forms.MaskedTextBox txtHorTrab;
         public System.Windows.Forms.TextBox txtSal;
-        private System.Windows.Forms.Button button1;
     }
 }

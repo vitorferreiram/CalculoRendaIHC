@@ -19,6 +19,21 @@ namespace CalculoRenda
             InitializeComponent();
             dgSalario.CellValueChanged += (s, e) => this.CellValueChanged?.Invoke(this, e);
             dgSalario.UserDeletedRow += (s, e) => this.UserDeletedRow?.Invoke(this, e);
+
+            string path = @"documento.txt";
+            string[] Linha = System.IO.File.ReadAllLines(path);
+
+            if (Linha.Length == 0)
+            {
+                return;
+            }
+
+            for (int i = 0; i < Linha.Length; i++)
+            {
+                string[] valores = Linha[i].Split(';');
+
+                dgSalario.Rows.Add(valores[0], valores[1]);
+            }
         }
 
         public void TXT()

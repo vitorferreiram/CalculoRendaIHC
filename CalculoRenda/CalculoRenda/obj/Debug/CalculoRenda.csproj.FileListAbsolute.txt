@@ -103,3 +103,22 @@ C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\CalculoRenda08-04\Calcu
 C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\CalculoRenda08-04\CalculoRenda\CalculoRenda\obj\Debug\pt-BR\CalculoRenda.resources.dll
 C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\CalculoRenda08-04\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.exe
 C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\CalculoRenda08-04\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.pdb
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\bin\Debug\CalculoRenda.exe.config
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\bin\Debug\CalculoRenda.exe
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\bin\Debug\CalculoRenda.pdb
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\bin\Debug\pt-BR\CalculoRenda.resources.dll
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.csprojResolveAssemblyReference.cache
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.Ajuda.resources
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.CalcHoraExtra.resources
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.Form1.resources
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.HelpHoraTrab.resources
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.HelpValorHora.resources
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.Properties.Resources.resources
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.CalcSal.resources
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.VisuEcon.resources
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.Form1.pt-BR.resources
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.csproj.GenerateResource.Cache
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\pt-BR\CalculoRenda.resources.dll
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.exe
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.pdb
