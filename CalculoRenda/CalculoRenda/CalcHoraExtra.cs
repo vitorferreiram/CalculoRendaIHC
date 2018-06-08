@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace CalculoRenda
 {
@@ -18,8 +19,6 @@ namespace CalculoRenda
             cbMes.SelectedIndex = DateTime.Now.Month - 1;
         }
 
-        public List<string> lstHoraExtra = new List<string>();
-        VisuEcon relatorio = new VisuEcon();
 
         public void Mensagem(string msg, bool status)
         {
@@ -61,9 +60,17 @@ namespace CalculoRenda
                 horaTrab = minuto / 60 + hora;
                 result = horaTrab * double.Parse(txtValHorEx.Text) * (double.Parse(txtPercHor.Text) /100);
 
-                lstHoraExtra.Add(mes + ";" + result.ToString("n2"));
-                relatorio.PassaListaExtra(lstHoraExtra);
+               
                 txtResultHoraExt.Text = result.ToString("n2");
+
+                //salvar arquivo txt
+
+                string path = @"horaextra.txt";
+                Stream f = File.Open(path, FileMode.Append);
+                StreamWriter file = new StreamWriter(f);
+
+                file.WriteLine(mes + ';' + result);
+                file.Close();
 
                 txtHorExt.Clear();
                 txtValHorEx.Clear();
