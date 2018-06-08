@@ -87,7 +87,7 @@ namespace CalculoRenda
 
                 //salvar arquivo txt
 
-                string path = @"documento.txt";
+                string path = @"salario.txt";
                 Stream f = File.Open(path, FileMode.Append);
                 StreamWriter file = new StreamWriter(f);
 

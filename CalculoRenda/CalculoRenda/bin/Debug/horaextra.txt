@@ -1,1 +1,3 @@
-Junho;285,5105
+Junho;828
+Junho;30,936
+Setembro;183601,47

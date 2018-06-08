@@ -1,0 +1,4 @@
+Junho;1150
+Junho;2494,0525
+Dezembro;10700,8
+Maio;541,65

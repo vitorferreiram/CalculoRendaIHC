@@ -122,3 +122,4 @@ C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\Calcul
 C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\pt-BR\CalculoRenda.resources.dll
 C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.exe
 C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.pdb
+C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.csproj.ResolveComReference.cache
