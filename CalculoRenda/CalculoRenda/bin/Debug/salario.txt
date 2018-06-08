@@ -1,9 +1,2 @@
-Junho;115
-Junho;244,05
-Dezembro;107,8
-Maio;541,65
-Janeiro;4116,75
-Março;1454,2
-Janeiro;1368
-Novembro;7,1
-Março;1476,2
+﻿Janeiro;25591
+Dezembro;918,75

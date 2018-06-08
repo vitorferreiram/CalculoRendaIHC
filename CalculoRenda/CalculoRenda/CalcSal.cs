@@ -81,9 +81,10 @@ namespace CalculoRenda
                 horaTrab = minuto / 60 + hora;
                 result = horaTrab * double.Parse(txtValHor.Text);
                 // conta errada
-              
+
+                result = Math.Round(result,2);
                 txtSal.ReadOnly = true;
-                txtSal.Text = result.ToString("n2");
+                txtSal.Text = result.ToString();
 
                 //salvar arquivo txt
 
@@ -98,6 +99,7 @@ namespace CalculoRenda
                 txtValHor.Clear();
 
                 Mensagem("Valor do salário adicionado ao histórico.", true);
+               
             }
         }
 

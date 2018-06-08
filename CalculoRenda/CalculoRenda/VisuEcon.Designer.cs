@@ -31,13 +31,15 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label3 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.dgHoraExtra = new System.Windows.Forms.DataGridView();
+            this.mes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.horaExtra = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dgSalario = new System.Windows.Forms.DataGridView();
@@ -48,8 +50,6 @@
             this.calcHoraExtraBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.calcHoraExtraBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.calcSalBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.mes = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.horaExtra = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgHoraExtra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgSalario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.calcHoraExtraBindingSource)).BeginInit();
@@ -94,6 +94,27 @@
             this.dgHoraExtra.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgHoraExtra.Size = new System.Drawing.Size(283, 359);
             this.dgHoraExtra.TabIndex = 8;
+            // 
+            // mes
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.mes.DefaultCellStyle = dataGridViewCellStyle2;
+            this.mes.FillWeight = 150F;
+            this.mes.HeaderText = "Mês";
+            this.mes.Name = "mes";
+            this.mes.ReadOnly = true;
+            this.mes.Width = 80;
+            // 
+            // horaExtra
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.Format = "C2";
+            dataGridViewCellStyle3.NullValue = null;
+            this.horaExtra.DefaultCellStyle = dataGridViewCellStyle3;
+            this.horaExtra.HeaderText = "Valor de Hora Extra";
+            this.horaExtra.Name = "horaExtra";
+            this.horaExtra.ReadOnly = true;
+            this.horaExtra.Width = 159;
             // 
             // label1
             // 
@@ -194,27 +215,6 @@
             // calcSalBindingSource
             // 
             this.calcSalBindingSource.DataSource = typeof(CalculoRenda.CalcSal);
-            // 
-            // mes
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.mes.DefaultCellStyle = dataGridViewCellStyle2;
-            this.mes.FillWeight = 150F;
-            this.mes.HeaderText = "Mês";
-            this.mes.Name = "mes";
-            this.mes.ReadOnly = true;
-            this.mes.Width = 80;
-            // 
-            // horaExtra
-            // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.Format = "C2";
-            dataGridViewCellStyle3.NullValue = null;
-            this.horaExtra.DefaultCellStyle = dataGridViewCellStyle3;
-            this.horaExtra.HeaderText = "Valor de Hora Extra";
-            this.horaExtra.Name = "horaExtra";
-            this.horaExtra.ReadOnly = true;
-            this.horaExtra.Width = 159;
             // 
             // VisuEcon
             // 

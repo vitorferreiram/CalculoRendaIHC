@@ -60,8 +60,8 @@ namespace CalculoRenda
                 horaTrab = minuto / 60 + hora;
                 result = horaTrab * double.Parse(txtValHorEx.Text) * (double.Parse(txtPercHor.Text) /100);
 
-               
-                txtResultHoraExt.Text = result.ToString("n2");
+                result = Math.Round(result, 2);
+                txtResultHoraExt.Text = result.ToString();
 
                 //salvar arquivo txt
 

@@ -68,7 +68,7 @@ namespace CalculoRenda
             panelMen.Top = btnVisuEcon.Top;
             visuEcon1.BringToFront();
 
-            //inicializar ele denovo para atualizar lista
+           //inicializar ele denovo para atualizar lista
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

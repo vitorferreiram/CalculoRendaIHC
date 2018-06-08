@@ -28,6 +28,8 @@ namespace CalculoRenda
 
             TXTCalcSal();
             TXTCalcHoraExtra();
+
+            //dgSalario.Update();
         }
 
         public void TXTCalcSal()
@@ -45,9 +47,9 @@ namespace CalculoRenda
             {
                 string[] valores = Linha[i].Split(';');
 
-                dgSalario.Rows.Add(valores[0], valores[1]);
+                dgSalario.Rows.Add(valores[0], Math.Round(double.Parse(valores[1]),2));
             }
-
+            
         }
 
         public void TXTCalcHoraExtra()
@@ -65,17 +67,10 @@ namespace CalculoRenda
             {
                 string[] valores = Linha[i].Split(';');
 
-                dgHoraExtra.Rows.Add(valores[0], valores[1]);
+                dgHoraExtra.Rows.Add(valores[0], Math.Round(double.Parse(valores[1]), 2));
             }
 
         }
-
-        public void apagarDataGrid()
-        {
-            //dgSalario.Rows.Clear();
-            //dgSalario.Refresh();
-        }
-
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -84,6 +79,7 @@ namespace CalculoRenda
 
         private void btnExcelSalario_Click(object sender, EventArgs e)
         {
+            
             if (dgSalario.Rows.Count > 0)
             {
                 try
@@ -182,5 +178,7 @@ namespace CalculoRenda
                      
 
         }
+
+       
     }
 }
