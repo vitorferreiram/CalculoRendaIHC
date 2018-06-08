@@ -16,8 +16,10 @@ namespace CalculoRenda
         public event DataGridViewCellEventHandler CellValueChanged;
         public event DataGridViewRowEventHandler UserDeletedRow;
 
-
         Microsoft.Office.Interop.Excel.Application Excel = new Microsoft.Office.Interop.Excel.Application();
+
+        
+
         public VisuEcon()
         {
             InitializeComponent();
@@ -170,7 +172,7 @@ namespace CalculoRenda
             ExcelGraf.ChartObject myChart = (ExcelGraf.ChartObject)xlCharts.Add(1, 1, 600, 250);
             ExcelGraf.Chart chartPage = myChart.Chart;
 
-            chartRange = xlWorkSheet.get_Range("A1", "d5");
+            chartRange = xlWorkSheet.get_Range("A1", "D10");
             chartPage.SetSourceData(chartRange, misValue);
             chartPage.ChartType = ExcelGraf.XlChartType.xlColumnClustered;
 

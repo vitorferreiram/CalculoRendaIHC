@@ -1,3 +1,4 @@
 Junho;828
-Junho;30,936
-Setembro;183601,47
+Junho;30,93
+Setembro;183,47
+Dezembro;25,768

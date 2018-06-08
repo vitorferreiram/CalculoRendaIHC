@@ -99,7 +99,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(42, 65);
+            this.label1.Location = new System.Drawing.Point(135, 65);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 25);
             this.label1.TabIndex = 10;
@@ -109,7 +109,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(316, 65);
+            this.label2.Location = new System.Drawing.Point(401, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(114, 25);
             this.label2.TabIndex = 11;
@@ -203,20 +203,18 @@
             this.mes.HeaderText = "Mês";
             this.mes.Name = "mes";
             this.mes.ReadOnly = true;
-            this.mes.Width = 90;
+            this.mes.Width = 80;
             // 
             // horaExtra
             // 
-            this.horaExtra.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.Format = "C2";
             dataGridViewCellStyle3.NullValue = null;
             this.horaExtra.DefaultCellStyle = dataGridViewCellStyle3;
-            this.horaExtra.FillWeight = 118F;
             this.horaExtra.HeaderText = "Valor de Hora Extra";
             this.horaExtra.Name = "horaExtra";
             this.horaExtra.ReadOnly = true;
-            this.horaExtra.Width = 165;
+            this.horaExtra.Width = 159;
             // 
             // VisuEcon
             // 

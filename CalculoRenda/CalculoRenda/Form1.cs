@@ -61,7 +61,7 @@ namespace CalculoRenda
             calcHoraExtra2.BringToFront();
           
         }
-        VisuEcon vE = new VisuEcon();
+        
         private void btnVisuEcon_Click(object sender, EventArgs e)
         {
             panelMen.Height = btnVisuEcon.Height;
