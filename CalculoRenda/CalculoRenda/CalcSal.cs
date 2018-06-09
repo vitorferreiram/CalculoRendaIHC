@@ -97,6 +97,7 @@ namespace CalculoRenda
 
                 txtHorTrab.Clear();
                 txtValHor.Clear();
+                //txtSal.Clear();
 
                 Mensagem("Valor do salário adicionado ao histórico.", true);
                

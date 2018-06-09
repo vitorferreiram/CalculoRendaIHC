@@ -263,6 +263,16 @@ namespace CalculoRenda.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap piggy_bank__7_ {
+            get {
+                object obj = ResourceManager.GetObject("piggy-bank (7)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap stopwatch {
             get {
                 object obj = ResourceManager.GetObject("stopwatch", resourceCulture);

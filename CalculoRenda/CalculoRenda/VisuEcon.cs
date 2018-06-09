@@ -154,7 +154,8 @@ namespace CalculoRenda
                 //-------------------------------------arquivo
                 string path = @"salario.txt";
                 string[] Linha = System.IO.File.ReadAllLines(path);
-                                
+
+                //CalcSal cSal = new CalcSal();
                 if (Linha.Length == 0)
                 {
                     return;
@@ -175,10 +176,10 @@ namespace CalculoRenda
                 ExcelGraf.Range chartRange;
 
                 ExcelGraf.ChartObjects xlCharts = (ExcelGraf.ChartObjects)xlWorkSheet.ChartObjects(Type.Missing);
-                ExcelGraf.ChartObject myChart = (ExcelGraf.ChartObject)xlCharts.Add(1, 1, 600, 250);
+                ExcelGraf.ChartObject myChart = (ExcelGraf.ChartObject)xlCharts.Add(1, 1, 900, 350);
                 ExcelGraf.Chart chartPage = myChart.Chart;
 
-                chartRange = xlWorkSheet.get_Range("A1", "D10");
+                chartRange = xlWorkSheet.get_Range("A1", "D20");
                 chartPage.SetSourceData(chartRange, misValue);
                 chartPage.ChartType = ExcelGraf.XlChartType.xlColumnClustered;
 

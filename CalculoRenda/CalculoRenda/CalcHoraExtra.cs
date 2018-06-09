@@ -80,6 +80,11 @@ namespace CalculoRenda
             }
         }
 
+        public void limpaCampos()
+        {
+            txtResultHoraExt.Clear();
+        }
+
         private bool vazio(TextBox txb)
         {
             if (string.IsNullOrEmpty(txb.Text))

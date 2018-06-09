@@ -59,7 +59,8 @@ namespace CalculoRenda
             panelMen.Height = btnCalcHoraExtra.Height;
             panelMen.Top = btnCalcHoraExtra.Top;
             calcHoraExtra2.BringToFront();
-          
+            CalcHoraExtra extra = new CalcHoraExtra();
+            extra.limpaCampos();
         }
         
         private void btnVisuEcon_Click(object sender, EventArgs e)

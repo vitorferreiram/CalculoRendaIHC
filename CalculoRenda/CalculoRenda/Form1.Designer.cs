@@ -30,22 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnCalculadora = new System.Windows.Forms.Button();
             this.panelMen = new System.Windows.Forms.Panel();
             this.btnVisuEcon = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCalcSal = new System.Windows.Forms.Button();
             this.btnCalcHoraExtra = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnAjuda = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnClose = new System.Windows.Forms.Button();
             this.calcSal1 = new CalculoRenda.CalcSal();
             this.visuEcon1 = new CalculoRenda.VisuEcon();
             this.calcHoraExtra2 = new CalculoRenda.CalcHoraExtra();
+            this.btnAjuda = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnCalculadora = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -65,16 +65,6 @@
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseUp);
             // 
-            // btnCalculadora
-            // 
-            resources.ApplyResources(this.btnCalculadora, "btnCalculadora");
-            this.btnCalculadora.FlatAppearance.BorderSize = 0;
-            this.btnCalculadora.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCalculadora.Image = global::CalculoRenda.Properties.Resources.calculator__1_;
-            this.btnCalculadora.Name = "btnCalculadora";
-            this.btnCalculadora.UseVisualStyleBackColor = true;
-            this.btnCalculadora.Click += new System.EventHandler(this.btnCalculadora_Click);
-            // 
             // panelMen
             // 
             resources.ApplyResources(this.panelMen, "panelMen");
@@ -90,14 +80,6 @@
             this.btnVisuEcon.Name = "btnVisuEcon";
             this.btnVisuEcon.UseVisualStyleBackColor = true;
             this.btnVisuEcon.Click += new System.EventHandler(this.btnVisuEcon_Click);
-            // 
-            // pictureBox1
-            // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox1.Image = global::CalculoRenda.Properties.Resources.piggy_bank__4_;
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
             // 
             // btnCalcSal
             // 
@@ -133,16 +115,6 @@
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             this.panel2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseUp);
             // 
-            // btnAjuda
-            // 
-            resources.ApplyResources(this.btnAjuda, "btnAjuda");
-            this.btnAjuda.BackgroundImage = global::CalculoRenda.Properties.Resources.info__2_;
-            this.btnAjuda.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btnAjuda.FlatAppearance.BorderSize = 0;
-            this.btnAjuda.Name = "btnAjuda";
-            this.btnAjuda.UseVisualStyleBackColor = true;
-            this.btnAjuda.Click += new System.EventHandler(this.button1_Click);
-            // 
             // label7
             // 
             resources.ApplyResources(this.label7, "label7");
@@ -151,16 +123,6 @@
             this.label7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             this.label7.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             this.label7.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseUp);
-            // 
-            // btnClose
-            // 
-            resources.ApplyResources(this.btnClose, "btnClose");
-            this.btnClose.BackgroundImage = global::CalculoRenda.Properties.Resources.error__1_;
-            this.btnClose.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.Name = "btnClose";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // calcSal1
             // 
@@ -179,6 +141,44 @@
             resources.ApplyResources(this.calcHoraExtra2, "calcHoraExtra2");
             this.calcHoraExtra2.Name = "calcHoraExtra2";
             // 
+            // btnAjuda
+            // 
+            resources.ApplyResources(this.btnAjuda, "btnAjuda");
+            this.btnAjuda.BackgroundImage = global::CalculoRenda.Properties.Resources.info__2_;
+            this.btnAjuda.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnAjuda.FlatAppearance.BorderSize = 0;
+            this.btnAjuda.Name = "btnAjuda";
+            this.btnAjuda.UseVisualStyleBackColor = true;
+            this.btnAjuda.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnClose
+            // 
+            resources.ApplyResources(this.btnClose, "btnClose");
+            this.btnClose.BackgroundImage = global::CalculoRenda.Properties.Resources.error__1_;
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.Name = "btnClose";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnCalculadora
+            // 
+            resources.ApplyResources(this.btnCalculadora, "btnCalculadora");
+            this.btnCalculadora.FlatAppearance.BorderSize = 0;
+            this.btnCalculadora.ForeColor = System.Drawing.Color.Transparent;
+            this.btnCalculadora.Image = global::CalculoRenda.Properties.Resources.calculator__1_;
+            this.btnCalculadora.Name = "btnCalculadora";
+            this.btnCalculadora.UseVisualStyleBackColor = true;
+            this.btnCalculadora.Click += new System.EventHandler(this.btnCalculadora_Click);
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox1.Image = global::CalculoRenda.Properties.Resources.piggy_bank__7_;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -196,9 +196,9 @@
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

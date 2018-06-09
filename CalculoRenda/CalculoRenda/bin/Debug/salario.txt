@@ -5,6 +5,8 @@ Abril;10341,55
 Outubro;345,05
 Novembro;1234,05
 Agosto;369,05
-Junho;4261,87
-Junho;4927307,65
-Junho;813480,93
+Junho;2261,87
+Junho;1200,00
+Maio;650
+Junho;782,83
+Junho;514,43

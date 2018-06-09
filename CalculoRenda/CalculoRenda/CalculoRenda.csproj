@@ -234,5 +234,8 @@
   <ItemGroup>
     <None Include="Resources\excel %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piggy-bank %287%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
