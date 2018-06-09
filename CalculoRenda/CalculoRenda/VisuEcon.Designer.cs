@@ -199,7 +199,7 @@
             this.btnExcelSalario.Name = "btnExcelSalario";
             this.btnExcelSalario.Size = new System.Drawing.Size(250, 45);
             this.btnExcelSalario.TabIndex = 13;
-            this.btnExcelSalario.Text = "   Exportar para o Excel";
+            this.btnExcelSalario.Text = "Exportar para planilha";
             this.btnExcelSalario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnExcelSalario.UseVisualStyleBackColor = false;
             this.btnExcelSalario.Click += new System.EventHandler(this.btnExcelSalario_Click);

@@ -1,2 +1,8 @@
-﻿Janeiro;25591
+﻿Janeiro;2591,00
 Dezembro;918,75
+Junho;334,57
+Abril;10341,55
+Outubro;345,05
+Novembro;1234,05
+Agosto;369,05
+Junho;4261,87

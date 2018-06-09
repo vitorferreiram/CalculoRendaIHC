@@ -36,7 +36,7 @@ namespace CalculoRenda
         {
             string path = @"salario.txt";
             string[] Linha = System.IO.File.ReadAllLines(path);
-            CalcSal cSal = new CalcSal();
+            //CalcSal cSal = new CalcSal();
 
             if (Linha.Length == 0)
             {
@@ -47,7 +47,7 @@ namespace CalculoRenda
             {
                 string[] valores = Linha[i].Split(';');
 
-                dgSalario.Rows.Add(valores[0], Math.Round(double.Parse(valores[1]),2));
+                dgSalario.Rows.Add(valores[0], valores[1]);
             }
             
         }
@@ -67,7 +67,7 @@ namespace CalculoRenda
             {
                 string[] valores = Linha[i].Split(';');
 
-                dgHoraExtra.Rows.Add(valores[0], Math.Round(double.Parse(valores[1]), 2));
+                dgHoraExtra.Rows.Add(valores[0], valores[1]);
             }
 
         }
@@ -139,43 +139,78 @@ namespace CalculoRenda
 
         private void btnGrafico_Click(object sender, EventArgs e)
         {
-
-            ExcelGraf.Application xlApp;
-            ExcelGraf.Workbook xlWorkBook;
-            ExcelGraf.Worksheet xlWorkSheet;
-            object misValue = System.Reflection.Missing.Value;
-
-            xlApp = new ExcelGraf.Application();
-            xlWorkBook = xlApp.Workbooks.Add(misValue);
-            xlWorkSheet = (ExcelGraf.Worksheet)xlWorkBook.Worksheets.get_Item(1);
-
-            //incluindo dados
-           // xlWorkSheet.Cells[1, 1] = "";
-
-           
-            //preencher valores
-            for (int i = 0; i < dgSalario.Rows.Count; i++)//mes
+            try
             {
-                for (int j = 0; j < dgSalario.Columns.Count; j++)//valor
+                ExcelGraf.Application xlApp;
+                ExcelGraf.Workbook xlWorkBook;
+                ExcelGraf.Worksheet xlWorkSheet;// xlWorkSheet2;
+                object misValue = System.Reflection.Missing.Value;
+
+                xlApp = new ExcelGraf.Application();
+                xlWorkBook = xlApp.Workbooks.Add(misValue);
+                xlWorkSheet = (ExcelGraf.Worksheet)xlWorkBook.Worksheets.get_Item(1);
+
+                           
+                //-------------------------------------arquivo
+                string path = @"salario.txt";
+                string[] Linha = System.IO.File.ReadAllLines(path);
+                                
+                if (Linha.Length == 0)
                 {
-                    xlWorkSheet.Cells[i+2, j+1] = dgSalario.Rows[i].Cells[j].Value.ToString();
+                    return;
                 }
+                int g = 2;
+                
+                for (int i = 0; i < Linha.Length; i++)
+                {
+                    string[] valores = Linha[i].Split(';');
+                    
+                    xlWorkSheet.Cells[g, 1] = valores[0];
+                    xlWorkSheet.Cells[g, 2] = double.Parse(valores[1]);
+                    g++;
+                   
+                }
+                //---------------------------------------
+
+                ExcelGraf.Range chartRange;
+
+                ExcelGraf.ChartObjects xlCharts = (ExcelGraf.ChartObjects)xlWorkSheet.ChartObjects(Type.Missing);
+                ExcelGraf.ChartObject myChart = (ExcelGraf.ChartObject)xlCharts.Add(1, 1, 600, 250);
+                ExcelGraf.Chart chartPage = myChart.Chart;
+
+                chartRange = xlWorkSheet.get_Range("A1", "D10");
+                chartPage.SetSourceData(chartRange, misValue);
+                chartPage.ChartType = ExcelGraf.XlChartType.xlColumnClustered;
+
+                xlWorkBook.Worksheets.Add(Type.Missing);
+                xlWorkBook.Worksheets[1].Name = "Hora extra";
+
+                //---------------------------------------hora extra
+                
+
+                xlWorkBook.Worksheets[2].Name = "Sálario";
+
+
+                //xlWorkSheet2 = (ExcelGraf.Worksheet)xlWorkBook.Worksheets.get_Item(2);
+
+                
+
+
+                //chartRange = xlWorkSheet2.get_Range("A1", "D10");
+                //chartPage.SetSourceData(chartRange, misValue);
+                //chartPage.ChartType = ExcelGraf.XlChartType.xlColumnClustered;
+
+
+
+                //abrir gráfico
+                xlWorkBook.Application.Visible = true;
+
             }
-
-            ExcelGraf.Range chartRange;
-
-            ExcelGraf.ChartObjects xlCharts = (ExcelGraf.ChartObjects)xlWorkSheet.ChartObjects(Type.Missing);
-            ExcelGraf.ChartObject myChart = (ExcelGraf.ChartObject)xlCharts.Add(1, 1, 600, 250);
-            ExcelGraf.Chart chartPage = myChart.Chart;
-
-            chartRange = xlWorkSheet.get_Range("A1", "D10");
-            chartPage.SetSourceData(chartRange, misValue);
-            chartPage.ChartType = ExcelGraf.XlChartType.xlColumnClustered;
-
-            //abrir gráfico
-            xlWorkBook.Application.Visible = true;
-
-                     
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro: " + ex.Message);
+                Excel.Quit();
+            }
 
         }
 
