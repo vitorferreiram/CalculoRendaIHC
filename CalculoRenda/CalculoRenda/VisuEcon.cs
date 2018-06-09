@@ -36,7 +36,7 @@ namespace CalculoRenda
         {
             string path = @"salario.txt";
             string[] Linha = System.IO.File.ReadAllLines(path);
-            //CalcSal cSal = new CalcSal();
+            CalcSal cSal = new CalcSal();
 
             if (Linha.Length == 0)
             {
