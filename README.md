@@ -25,4 +25,4 @@ Nesta tela, será exibida uma prévia da tabela com os cálculos e dois botões,
 
 REQUISITOS
 
-Devido à integração do programa com o aplicatico Excel, do Microsoft Office, o software deve ser utilizado em sistema Operacional Windows que possua o Office instalado, caso não o Office não esteja instalado, as exportações não serão realizadas.
+Devido à integração do programa com o aplicatico Excel, do Microsoft Office, o software deve ser utilizado em sistema Operacional Windows que possua o Office instalado, caso o Office não esteja instalado, as exportações não serão realizadas.
