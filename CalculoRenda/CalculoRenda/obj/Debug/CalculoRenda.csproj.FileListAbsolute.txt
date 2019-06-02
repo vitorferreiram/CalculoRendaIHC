@@ -123,3 +123,18 @@ C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\Calcul
 C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.exe
 C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.pdb
 C:\Users\vitor\Desktop\PUC\2018 -1\ihc\Calculo Renda IHC\Calculo de renda\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.csproj.ResolveComReference.cache
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.csprojAssemblyReference.cache
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.csproj.ResolveComReference.cache
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.Ajuda.resources
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.CalcHoraExtra.resources
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.Form1.resources
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.HelpHoraTrab.resources
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.HelpValorHora.resources
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.Properties.Resources.resources
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.CalcSal.resources
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.VisuEcon.resources
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.Form1.pt-BR.resources
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.csproj.GenerateResource.cache
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.csproj.CoreCompileInputs.cache
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.exe
+C:\Users\Marlon Dias\Documents\GitHub\CalculoRendaIHC\CalculoRenda\CalculoRenda\obj\Debug\CalculoRenda.pdb
